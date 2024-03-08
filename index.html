@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasbee Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="container mx-auto">
+    <h1 class="text-center my-10 text-5xl font-black">Digital Tasbih</h1> 
+<main>
+
+    <section class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 my-10 gap-5">
+        <div id="subhanallah-card" class="w-[100%] bg-amber-100 p-10 flex flex-col justify-center items-center gap-6">
+            <h1 class=" text-green-800 text-2xl">Subhanallah</h1>
+            <p id="subhanallah-count" class="text-3xl">0</p>
+            <div>
+                <button id="subhanallah-increment-btn" class="btn bg-green-600 text-white">INCREMENT</button>
+                <button id="subhanallah-decrement-btn" class="btn bg-red-600 text-white">DECREMENT</button>
+            </div>
+        </div>
+        <!-- second -->
+        <div id="alhamdulliha-card" class="w-[100%] bg-amber-100 p-10 flex flex-col justify-center items-center gap-6">
+            <h1 class=" text-green-800 text-2xl">alhamdulliha</h1>
+            <p id="alhamdulliha-count" class="text-3xl">0</p>
+            <div>
+                <button id="alhamdulliha-increment-btn" class="btn bg-green-600 text-white">INCREMENT</button>
+                <button id="alhamdulliha-decrement-btn" class="btn bg-red-600 text-white">DECREMENT</button>
+            </div>
+        </div>
+        <!-- third -->
+        <div id="allahuakbar-card" class="w-[100%] bg-amber-100 p-10 flex flex-col justify-center items-center gap-6">
+            <h1 class=" text-green-800 text-2xl">allahuakbar</h1>
+            <p id="allahuakbar-count" class="text-3xl">0</p>
+            <div>
+                <button id="allahuakbar-increment-btn" class="btn bg-green-600 text-white">INCREMENT</button>
+                <button id="allahuakbar-decrement-btn" class="btn bg-red-600 text-white">DECREMENT</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-center">
+        <button id="reset" class="btn text-white px-10 text-2xl bg-orange-600">Reset All</button>
+    </section>
+
+</main>
+    
+
+<script src="script.js"></script>
+</body>
+</html>
